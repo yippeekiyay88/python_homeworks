@@ -1,0 +1,2 @@
+print('task2')
+
