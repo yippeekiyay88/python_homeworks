@@ -22,6 +22,8 @@ day = 1
 if a > b:
     print(day)
 while a < b:
+    i = day + 1
     a = a + a / 10
+    print('At', i,'-day', round(a, 2))
     day = day + 1
-print(day)
+print('At', day, 'day athlete reached a result — at least', b, 'km')
